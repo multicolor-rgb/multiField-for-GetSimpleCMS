@@ -28,7 +28,7 @@ register_plugin(
 
 
 # add a link in the admin tab 'theme'
-add_action('plugins-sidebar', 'createSideMenu', array($thisfile, 'MultiField Settings 🏖️'));
+add_action('plugins-sidebar', 'createSideMenu', array($thisfile, i18n_r('multiField/SETTINGS').' 🏖️'));
 
 
 function multiField()

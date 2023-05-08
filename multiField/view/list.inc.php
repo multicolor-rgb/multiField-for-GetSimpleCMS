@@ -1,4 +1,4 @@
-<h3>MultiField List</h3>
+<h3><?php echo i18n_r('multiField/MULTIFIELDSLIST'); ?></h3>
 
 <style>
     .multifield-list {
@@ -80,12 +80,12 @@ $url = $SITEURL . $GSADMIN . '/load.php?id=multiField';
 
         $pureFile = pathinfo($file)['filename'];
 
-        $xm = simplexml_load_file(GSDATAPAGESPATH . $pureFile . '.xml');
+        $xm = @simplexml_load_file(GSDATAPAGESPATH . $pureFile . '.xml');
 
 
         echo '
 <li>
-<p>' . $xm->title . '</p>
+<p>' . (@$xm->title ? $xm->title : 'Page no exist') . '</p>
 <div class="btns"><a href="' . $url . '&creator=' . $pureFile . '"> <img style="width:18px;;margin-left:5px;" src="' . $SITEURL . 'plugins/multiField/img/edit.svg"></a>
 <a href="' . $url . '&delete=' . $pureFile . '" onclick="return confirm(`are you sure you want delete this item`)"><img style="width:18px;;filter:invert(100%)" src="' . $SITEURL . 'plugins/multiField/img/trash.svg"></a></div>
 </li>

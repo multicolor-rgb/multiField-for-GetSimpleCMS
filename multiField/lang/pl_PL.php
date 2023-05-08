@@ -2,6 +2,7 @@
 
 $i18n = array(
 
+	"SETTINGS" => "MultiField Ustawienia",
 	"DESCRIPTION" => "Kreator pól niestandardowych dla konkretnej strony",
 	"PAYPAL" => "Jeśli chcesz zobaczyć nowe wtyczki, kup mi ☕ :)",
 	"ADDNEW" => "Dodaj nowe",
@@ -9,8 +10,9 @@ $i18n = array(
 	"BACKTOLIST" => "Powrót do listy",
 	"MULTIFIELDCREATE" => "Utwórz MultiField",
 	"ADDNEWINPUT" => "Dodaj nowe pole",
+	"TITLE" => "Tytuł",
 	"SELECTPAGE" => "Wybierz stronę, na której chcesz wyświetlić Multifield",
-	"MULTIFIELDSLIST" => "Lista MultiFields",
+	"MULTIFIELDSLIST" => "Lista MultiField",
 	"REMOVEQUESTION" => "Jesteś pewien, że chcesz usunąć ten element?",
 	"ORDER" => "Zmień Kolejność",
 	"DONE" => "Gotowe",
@@ -27,9 +29,9 @@ $i18n = array(
 	"FOTO" => "Zdjęcie",
 	"LINK" => "Link",
 
-		//migrate
+	//migrate
 
-		"OLDURL" => "Stary URL",
-		"NEWURL" => "Nowy URL",
-		"CHANGEURL" => "Zmień URL multiField",
+	"OLDURL" => "Stary URL",
+	"NEWURL" => "Nowy URL",
+	"CHANGEURL" => "Zmień URL multiField",
 );

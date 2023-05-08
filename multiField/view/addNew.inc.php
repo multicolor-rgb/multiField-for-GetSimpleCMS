@@ -241,7 +241,7 @@ $url = $SITEURL . $GSADMIN . '/load.php?id=multiField';; ?>
 <script>
     const content = {
         buttonAdd: '<?php echo i18n_r('multiField/ADDNEWINPUT'); ?> <img style="margin-left:10px;width:20px;filter:invert(100%);" src="<?php echo $SITEURL . 'plugins/multiField/img/plus.svg'; ?>">',
-        title: 'title',
+        title: '<?php echo i18n_r('multiField/TITLE'); ?>',
         selectPage: '<?php echo i18n_r('multiField/SELECTPAGE'); ?>',
         count: 0,
         select: '',

@@ -2,6 +2,7 @@
 
 $i18n = array(
 
+	"SETTINGS" => "MultiField Settings",
 	"DESCRIPTION" => "Creator for Custom Fields for concrete page",
 	"PAYPAL" => "If you want to see new plugins, buy me a ☕ :)",
 	"ADDNEW" => "Add New",
@@ -9,6 +10,7 @@ $i18n = array(
 	"BACKTOLIST" => "Back to list",
 	"MULTIFIELDCREATE" => "MultiField Create",
 	"ADDNEWINPUT" => "Add New Input",
+	"TITLE" => "Title",
 	"SELECTPAGE" => "Select the page on which you want to show the multifields",
 	"MULTIFIELDSLIST" => "MultiFields list",
 	"REMOVEQUESTION" => "are you sure you want delete this item?",
@@ -24,7 +26,7 @@ $i18n = array(
 	"WYSYWIG" => "Wysywig",
 	"COLOR" => "Color",
 	"DATE" => "Date",
-	"FOTO" => "Foto",
+	"FOTO" => "Image",
 	"LINK" => "Link",
 
 	//migrate
