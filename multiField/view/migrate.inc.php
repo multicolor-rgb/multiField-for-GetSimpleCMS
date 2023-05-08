@@ -45,15 +45,15 @@
      }
  </style>
 
- <h3>Migrate Carousel Creator</h3>
+ <h3><?php echo i18n_r('multiField/MIGRATE');?> MultiFields</h3>
 
  <form action="#" method="post" class="form">
 
-     <label for="">Old Url</label>
+     <label for=""><?php echo i18n_r('multiField/OLDURL');?></label>
      <input type="text" name="oldurl" placeholder="https://youroldadress.com/">
-     <label for="">New Url</label>
+     <label for=""><?php echo i18n_r('multiField/NEWURL');?></label>
      <input type="text" name="newurl" placeholder="https://yournewadress.com/">
-     <input type="submit" class="btn" name="changeURL" value="Change multiFields url">
+     <input type="submit" class="btn" name="changeURL" value="<?php echo i18n_r('multiField/CHANGEURL');?>">
  </form>
 
 
@@ -71,5 +71,5 @@
             $newContent = str_replace([$oldurl, $oldurl . '/'], [$newurl, $newurl . '/'], $fileContent);
             file_put_contents($file, $newContent);
         }
-        echo '<div class="mf-alert">done!</div>';
+        echo '<div class="mf-alert">'.i18n_r('multiField/DONE').'!</div>';
     };; ?>

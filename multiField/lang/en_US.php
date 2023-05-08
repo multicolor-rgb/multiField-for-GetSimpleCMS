@@ -26,4 +26,10 @@ $i18n = array(
 	"DATE" => "Date",
 	"FOTO" => "Foto",
 	"LINK" => "Link",
+
+	//migrate
+
+	"OLDURL" => "Old Url",
+	"NEWURL" => "New Url",
+	"CHANGEURL" => "Change multiFields url",
 );
